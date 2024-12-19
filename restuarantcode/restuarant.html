@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>McDonalds Menu</title>
+    <style>
+        body{
+            background-color: yellow;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>McDonalds</h1>
+        <img id="header-img" 
+        src=
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/McDonald%27s_Golden_Arches.svg/180px-McDonald%27s_Golden_Arches.svg.png">
+        <h2>I'm Lovin It!</h2>
+        <nav>
+            <ul>
+                <li><a href="#breakfast">Breakfast</a></li>
+                <li><a href="#lunch">Lunch</a></li>
+                <li><a href="#dinner">Dinner</a></li>
+                <li><a href="#placeorder">Place Your Order</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="breakfast">
+        <h2>Welcome to the Breakfast Menu!</h2>
+        <p>Here we have our famous breakfast meals</p>
+        <ul>
+            <li>
+                <figure>
+                    <img src="https://s7d1.scene7.com/is/image/mcdonalds/DC_202012_1765_SteakEggCheeseMcMuffin_832x472:1-3-product-tile-desktop?wid=765&hei=472&dpr=off" width="200">
+                    <figcaption>Egg McMuffin</figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="https://www.whatdadcooked.com/wp-content/uploads/2015/10/mcmuffin10-0032.jpg" width="200">
+                    <figcaption>Sausage Egg McMuffin</figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="https://spoonsofflavor.com/wp-content/uploads/2023/08/Copycat-Mcdonalds-Pancake-Recipe.jpg" width="200">
+                    <figcaption>Pancakes</figcaption>
+                </figure>
+            </li>
+        </ul>
+    </section>
+    <section id="lunch">
+        <h2>Welcome to the Lunch Menu!</h2>
+        <p>Here we have our famous lunch meals</p>
+        <ul>
+            <li>
+                <figure>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/McDonalds-Chicken-McNuggets.jpg" width="200">
+                    <figcaption>Chicken McNuggets</figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="https://s7d1.scene7.com/is/image/mcdonaldsstage/DC_202302_5926-999_Filet-O-Fish_HalfSlice_Alt_1564x1564:product-header-mobile?wid=1313&hei=1313&dpr=off" width="200">
+                    <figcaption>Fillet O Fish</figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="https://s7d1.scene7.com/is/image/mcdonalds/DC_201910_0010_McRib_1564x1564-1:product-header-mobile?wid=1313&hei=1313&dpr=off" width="200">
+                    <figcaption>McRib</figcaption>
+                </figure>
+            </li>
+        </ul>
+    </section>    
+    <section id="dinner">
+        <h2>Welcome to the Dinner Menu!</h2>
+        <p>Here we have our famous dinner meals</p>
+        <ul>
+            <li>
+                <figure>
+                    <img src="https://s7d1.scene7.com/is/image/mcdonaldsstage/DC_202302_4314-999_McChicken_1564x1564:product-header-mobile?wid=1313&hei=1313&dpr=off" width="200">
+                    <figcaption>Egg McMuffin</figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="https://mcdonalds-menu.co.uk/wp-content/uploads/2022/07/quarter-pounder-cheese.png" width="200">
+                    <figcaption>Quarter Pounder With Cheese</figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="https://s7d1.scene7.com/is/image/mcdonaldsstage/DC_202004_0334_SausageBurrito_Alt_1564x1564:product-header-mobile?wid=1313&hei=1313&dpr=off" width="200">
+                    <figcaption>Sausage Burrito</figcaption>
+                </figure>
+            </li>
+        </ul>
+    </section>
+    <section id="placeorder">
+        <h2>Place Your Order</h2>
+        <form>
+            <label for="firstName">First Name: </label><input type="text" id="firstName" name="firstName" required><br><br>
+            <label for="lastName">Last Name: </label><input type="text" id="lastName" name="lastName" required><br><br>
+            <label for="email">Email: </label><input type="email" id="email" name="email" required><br><br>
+            <label for="breakFast">What Do You Want to Order for Breakfast? </label><br>
+            <input type="radio" id="breakFast" name="breakFast"> Egg McMuffin <br>
+            <input type="radio" id="breakFast" name="breakFast"> Sausage Egg McMuffin<br>
+            <input type="radio" id="breakFast" name="breakFast"> Pancakes<br>
+            <br><br>
+            <label for="lunch">What Do You Want to Order for Lunch? </label><br>
+            <input type="radio" id="lunch" name="lunch"> Chicken McNuggets <br>
+            <input type="radio" id="lunch" name="lunch"> Fillet O Fish<br>
+            <input type="radio" id="lunch" name="lunch"> McRib<br>
+            <br><br>
+            <label for="dinner">What Do You Want to Order for Dinner? </label><br>
+            <input type="radio" id="dinner" name="dinner"> Egg McMuffin <br>
+            <input type="radio" id="dinner" name="dinner"> Quarter Pounder With Cheese<br>
+            <input type="radio" id="dinner" name="dinner"> Sausage Burrito<br>
+            <br><br>
+            <input type="submit" value="Submit Your Order">
+        </form>
+    </section>
+</body>
+</html>
