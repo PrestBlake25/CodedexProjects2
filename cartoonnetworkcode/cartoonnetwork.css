@@ -1,0 +1,44 @@
+header{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+nav li{
+    text-decoration: none;
+    background-color: blue;
+    border: 3px solid rgba(16, 170, 157, 0.966);
+    border-radius: 10px;
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+}
+
+#cartoons > h2, #cartoons > h3{
+    text-align: center;
+}
+#cartoons > ul{
+    list-style-type: none;
+    padding: 0;   
+}
+.CartoonList{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.CartoonList > figure{
+    display: inline-block;
+}
+.CartoonList > figcaption{
+    text-align: center;
+    padding: 10px;
+}
