@@ -21,10 +21,10 @@ nav li{
     margin: 10px;
 }
 
-#cartoons > h2, #cartoons > h3{
+#cartoons > h2, #cartoons > h3, #games > h2, #games > h3{
     text-align: center;
 }
-#cartoons > ul{
+#cartoons > ul, #games > ul{
     list-style-type: none;
     padding: 0;   
 }
@@ -41,4 +41,23 @@ nav li{
 .CartoonList > figcaption{
     text-align: center;
     padding: 10px;
+}
+#games{
+    background-color: pink;
+}
+#games li a{
+    background-color: blue;
+    color: orangered;
+    border: 3px solid rgba(12, 9, 196, 0.966);
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+.GameList{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
 }
